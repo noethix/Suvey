@@ -1,2 +1,2 @@
-# Suvey
+# Survey
 survey for cats
