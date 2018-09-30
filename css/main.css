@@ -1,0 +1,91 @@
+html,
+body {
+  text-align: center;
+  font-family: 'Reem Kufi', Helvetica, sans-serif;
+  min-width: 320px;
+}
+
+#title {
+  font-family: "Ink Free", Helvetica, sans-serif;
+  font-size: 5em;
+  background: rgba(		255, 0, 153, 0.80);  
+  padding: 20px;
+  border-radius: 4px;
+}
+ 
+#image {
+  max-width: 100%; 
+  display: block; 
+  height: auto;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.image-frame {
+   border: 5px solid rgb(255, 0, 153);
+   border-radius: 4px;
+   box-shadow: 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#form-outer {
+  background-color: rgba(12, 12, 12, 0.79);
+  color: #ffebf7;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 75%;  
+  padding: 20px;
+}
+
+#description {
+  font-size: 2em;
+}
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 6px;
+  vertical-align: middle;
+  margin-top: 3px;
+}
+
+.cat-info-right {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  margin: 5px;
+  vertical-align: middle;
+}
+.input-field {
+  height: 20px;
+  width: 200px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid rgba(	255, 0, 153, 0.75);
+  border-radius: 2px;
+}
+
+.input-drop {
+  height: 30px;
+  width: 100%;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid rgba(250, 25, 92, 0.75);
+  border-radius: 2px;
+}
+
+#submit {
+  margin: 30px;
+}
+
+#submit:hover {
+  transform:scale(1.3);
+}
+.catlife,
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+  
+.FoodChoice,
+input[type="radio"] {
+  margin-right: 5px;
+}
